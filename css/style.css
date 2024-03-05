@@ -1,0 +1,55 @@
+body{
+    min-width: 100%;
+    font-family: "Comfortaa", cursive;
+    background-color: #272b30;
+    min-height: 100%;
+    color: #fff;
+}
+
+header{
+    height: 30vh;
+    background-image: url(../images/wraper.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+nav{
+    background-color: rgb(58, 73, 123) !important;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 70%);
+}
+nav a .logo{
+    max-width: 40px;
+}
+nav .navbar-collapse .nav-link{
+    color: #fff !important;
+    font-size: 12px;
+}
+nav .nav-item .active{
+    color: #09c !important;
+}
+nav .nav-item .nav-link:hover{
+    color: #09c !important;
+}
+#btnClose{
+    cursor: pointer;
+}
+
+
+.home .card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+ }
+ 
+ header img {
+    max-height: 30vh;
+    object-fit: cover;
+ }
+ 
+ .home .card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+ } 
+
+

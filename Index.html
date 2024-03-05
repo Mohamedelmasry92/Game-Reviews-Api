@@ -1,0 +1,85 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 12 (Masry)</title>
+</head>
+<body> 
+
+
+
+    
+    <section class="games">
+
+    <header></header>
+    
+    
+    <nav class="navbar w-75 mx-auto navbar-expand-lg position-sticky  py-0 pt-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h5 class="text-white mt-1">
+                <img src="images/logo-sm.png" class="logo" alt="">
+                GAME REVIEWS
+            </h5></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto menu mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-category="mmorpg" href="#">MMORPG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="shooter" href="#">SHOOTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="sailing" href="#">SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="permadeath" href="#">PERMADEATH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="superhero" href="#">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-category="pixel" href="#">PIXEL</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+    </nav>
+
+<section>
+    <div class="container my-5 home">
+        <div class="position-relative">
+           <div class="row g-4" id="gameData">
+              <div class="col"></div>
+           </div>
+        </div>
+    </div>
+</section>
+
+    </section>
+
+
+    <section class="details d-none">
+     <div class="container">
+        <header class="hstack justify-content-between">
+           <h3 class="text-center ">Details Game</h3>
+           <i class="fa-solid fa-xmark bg-transparent fa-2x text-white " id="btnClose"></i>
+        </header>
+        <div class="row position-relative g-4" style="margin-top: -80px;" id="detailsContent"></div>
+     </div>
+    </section>
+
+
+
+
+ 
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
